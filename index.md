@@ -3,12 +3,12 @@ layout: home
 title: Home
 ---
 
-# Huanyu Yin - 印环宇
+# Huanyu Yin | 印环宇
 
 Postdoctoral Fellow  
 The Chinese University of Hong Kong  
 
-📧 huanyu.yin@cuhk.edu.hk  
+📧 [huanyu.yin@cuhk.edu.hk](mailto:huanyu.yin@cuhk.edu.hk)
 
 ---
 
@@ -29,7 +29,15 @@ My research focuses on inventory management and supply chain systems, with an em
 
 ---
 
+## Links
+
+- [📄 CV](./cv/)
+- [📚 Research](./research/)
+- [📑 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4638265)
+
+---
+
 ## News
 
 - 🎉 Paper accepted at *Management Science*  
-- 🏆 Honorable Mention, POMS-HK Best Student Paper Competition  
+- 🏆 Honorable Mention, POMS-HK Best Student Paper Competition 
