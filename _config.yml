@@ -6,7 +6,10 @@ url: "https://checkandraise.github.io"
 markdown: kramdown
 theme: minima
 
+include:
+  - _pages
+
 header_pages:
   - index.md
-  - research.md
-  - cv.md
+  - _pages/research.md
+  - _pages/cv.md
