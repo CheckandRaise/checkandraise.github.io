@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+/* 全局字体 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 标题更清晰 */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* 名字更突出 */
+h1 {
+  font-size: 28px;
+}
