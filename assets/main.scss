@@ -77,3 +77,12 @@ strong {
   color: #777;
   font-size: 14px;
 }
+
+/* ===== 几何网格背景（淡雅版） ===== */
+body {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(#eaeaea 1px, transparent 1px),
+    linear-gradient(90deg, #eaeaea 1px, transparent 1px);
+  background-size: 40px 40px;
+}
