@@ -1,0 +1,12 @@
+title: Huanyu Yin
+name: Huanyu Yin
+description: Academic Homepage
+url: "https://checkandraise.github.io"
+
+markdown: kramdown
+theme: minima
+
+header_pages:
+  - index.md
+  - _pages/research.md
+  - _pages/cv.md
