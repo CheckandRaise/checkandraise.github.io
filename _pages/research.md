@@ -8,7 +8,11 @@ permalink: /research/
 
 {% for pub in site.data.publications %}
 **{{ pub.authors }}**  
-*{{ pub.title }}*  
+{% if pub.url %}
+*<a href="{{ pub.url }}">{{ pub.title }}</a>*
+{% else %}
+*{{ pub.title }}*
+{% endif %}
 {{ pub.journal }}, {{ pub.year }}
 
 {% if pub.links %}
