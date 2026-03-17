@@ -26,7 +26,7 @@ permalink: /research/
 **Huanyu Yin**  
 *Asymptotic Optimality of Independent Base-Stock Policies in Assemble-to-Order Systems*  
 - Intended for submission to *Operations Research Letters*
-- 
+
 ---
 
 ## Work in Progress
