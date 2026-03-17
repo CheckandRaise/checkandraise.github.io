@@ -1,5 +1,96 @@
+
 ---
 ---
 
 @import "minima";
-@import "css/style";
+
+/* ===== 全局字体（学术 + 现代混合） ===== */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* ===== 标题（更现代一点） ===== */
+h1, h2, h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  color: #111;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* 首页名字更突出 */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* ===== 段落间距 ===== */
+p {
+  margin-bottom: 1em;
+}
+
+/* ===== 链接（学术风深蓝） ===== */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003d80;
+}
+
+/* ===== 分割线 ===== */
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== Publications 区块优化 ===== */
+strong {
+  font-weight: 700;
+  color: #000;
+}
+
+/* ===== 页面整体宽度优化 ===== */
+.wrapper {
+  max-width: 900px;
+}
+
+/* ===== 顶部导航优化 ===== */
+.site-header {
+  border-bottom: 1px solid #eee;
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* ===== footer 简化一点 ===== */
+.site-footer {
+  border-top: 1px solid #eee;
+  color: #777;
+  font-size: 14px;
+}
+
+/* ===== 几何网格背景（淡雅版） ===== */
+body {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 86, 179, 0.04), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(0, 86, 179, 0.03), transparent 40%),
+
+    linear-gradient(#f0f0f0 1px, transparent 1px),
+    linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
+
+  background-size:
+    100% 100%,
+    100% 100%,
+    40px 40px,
+    40px 40px;
+}
