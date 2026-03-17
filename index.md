@@ -12,7 +12,7 @@ title: Home
 </td>
 <td width="70%">
 
-<h1>Huanyu Yin (印环宇)</h1>
+<h1>Huanyu Yin | 印环宇 </h1>
 
 <p>
 Postdoctoral Fellow<br>
