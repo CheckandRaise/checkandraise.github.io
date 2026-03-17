@@ -80,9 +80,16 @@ strong {
 
 /* ===== 几何网格背景（淡雅版） ===== */
 body {
-  background-color: #ffffff;
-  background-image:
-    linear-gradient(#eaeaea 1px, transparent 1px),
-    linear-gradient(90deg, #eaeaea 1px, transparent 1px);
-  background-size: 40px 40px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 86, 179, 0.04), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(0, 86, 179, 0.03), transparent 40%),
+
+    linear-gradient(#f0f0f0 1px, transparent 1px),
+    linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
+
+  background-size:
+    100% 100%,
+    100% 100%,
+    40px 40px,
+    40px 40px;
 }
