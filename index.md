@@ -7,17 +7,21 @@ title: Home
 <tr>
 <td width="30%">
 
-<img src="/assets/profile.jpg" width="180">
+<img src="/assets/profile.jpg" width="180" style="border-radius: 50%;">
 
 </td>
 <td width="70%">
 
-# Huanyu Yin (印环宇)
+<h1>Huanyu Yin (印环宇)</h1>
 
-Postdoctoral Fellow  
-The Chinese University of Hong Kong  
+<p>
+Postdoctoral Fellow<br>
+The Chinese University of Hong Kong
+</p>
 
-📧 [huanyu.yin@cuhk.edu.hk](mailto:huanyu.yin@cuhk.edu.hk)
+<p>
+📧 <a href="mailto:huanyu.yin@cuhk.edu.hk">huanyu.yin@cuhk.edu.hk</a>
+</p>
 
 </td>
 </tr>
