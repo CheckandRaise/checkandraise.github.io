@@ -7,19 +7,21 @@ permalink: /research/
 # Publications
 
 {% for pub in site.data.publications %}
-**{{ pub.authors }}**  
+
+<p>
+
+<strong>{{ pub.authors }}</strong><br>
+
 {% if pub.url %}
-*<a href="{{ pub.url }}">{{ pub.title }}</a>*
+<em><a href="{{ pub.url }}">{{ pub.title }}</a></em><br>
 {% else %}
-*{{ pub.title }}*
+<em>{{ pub.title }}</em><br>
 {% endif %}
+
 {{ pub.journal }}, {{ pub.year }}
 
-{% if pub.links %}
-{% for link in pub.links %}
-[{{ link.name }}]({{ link.url }})
-{% endfor %}
-{% endif %}
+</p>
 
----
+<hr>
+
 {% endfor %}
