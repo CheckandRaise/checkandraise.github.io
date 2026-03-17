@@ -3,6 +3,8 @@ name: Huanyu Yin
 description: Academic Homepage
 url: "https://checkandraise.github.io"
 
+show_downloads: false
+
 markdown: kramdown
 theme: minima
 
