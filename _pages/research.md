@@ -6,26 +6,27 @@ permalink: /research/
 
 # Research
 
+
 ## Publications
 
-**Managing Perishable Inventory Systems with Positive Lead Times: Inventory Position vs. Projected Inventory Level**  
-(with Jinzhi Bu and Xiting Gong)  
-*Accepted at Management Science*  
+**Huanyu Yin**, Jinzhi Bu, and Xiting Gong  
+*Managing Perishable Inventory Systems with Positive Lead Times: Inventory Position vs. Projected Inventory Level*  
+*Management Science* (Accepted)  
 
-- [Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4638265)
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4638265)
 
 ---
 
 ## Working Papers
 
-**Simple Policies for Serial Inventory Systems with Lost Sales: Beyond Echelon Base-Stock Policy**  
-(with Xiting Gong)  
+**Huanyu Yin** and Xiting Gong  
+*Simple Policies for Serial Inventory Systems with Lost Sales: Beyond Echelon Base-Stock Policy*  
 - Intended for submission to *Management Science*  
 
-**Asymptotic Optimality of Independent Base-Stock Policies in Assemble-to-Order Systems**  
-(Single author)  
-- Intended for submission to *Operations Research Letters*  
-
+**Huanyu Yin**  
+*Asymptotic Optimality of Independent Base-Stock Policies in Assemble-to-Order Systems*  
+- Intended for submission to *Operations Research Letters*
+- 
 ---
 
 ## Work in Progress
