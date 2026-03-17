@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Huanyu Yin
+# Huanyu Yin - 印环宇
 
 Postdoctoral Fellow  
 The Chinese University of Hong Kong  
