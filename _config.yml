@@ -8,5 +8,5 @@ theme: minima
 
 header_pages:
   - index.md
-  - _pages/research.md
-  - _pages/cv.md
+  - research.md
+  - cv.md
