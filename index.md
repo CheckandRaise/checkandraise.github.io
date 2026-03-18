@@ -31,6 +31,6 @@ The Chinese University of Hong Kong
 
 ## About
 
-I am a Postdoctoral Fellow at the Chinese University of Hong Kong, working with Prof. Xiting Gong. I received my Ph.D. in Operations Management from CUHK and my B.Sc. in Mathematics from Nanjing University.
+I am a Postdoctoral Fellow at the Chinese University of Hong Kong, working with Prof. Xiting Gong (龔錫挺). I received my Ph.D. in Operations Management from CUHK and my B.Sc. in Mathematics from Nanjing University.
 
-My research focuses on inventory management and supply chain systems, with an emphasis on simple policies and asymptotic analysis for stochastic systems.
+My research focuses on inventory and supply chain management, with an emphasis on simple policies design and asymptotic analysis on heuristic policies.
