@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Huanyu Yin | Operations Management and Supply Chain Research
 --- 
 
 <table>
