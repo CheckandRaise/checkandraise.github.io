@@ -21,6 +21,9 @@ permalink: /miscellaneous/
         <p>Tennis is one of my favorite ways to reset outside work. I currently play at approximately NTRP 3.0.</p>
         <span class="sport-badge">NTRP 3.0</span>
       </div>
+      <a class="tennis-idol-mark" href="https://novakdjokovic.com/en/" target="_blank" rel="noopener" aria-label="Visit Novak Djokovic's official website">
+        <img src="/assets/misc/novak-djokovic-mark.svg" alt="">
+      </a>
     </article>
 
     <article class="sport-card sport-swimming">
@@ -42,18 +45,18 @@ permalink: /miscellaneous/
     </div>
 
     <div class="leader-grid" aria-label="Favorite Civilization VI leaders">
-      <figure class="leader-card">
+      <a class="leader-card" href="https://www.bilibili.com/video/BV1xRrxY4ET5/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=4b64c8ac85363331be19e548cc13d71c" target="_blank" rel="noopener">
         <img src="/assets/misc/menelik-ii.png" alt="Menelik II from Civilization VI" loading="lazy">
-        <figcaption><strong>Menelik II</strong><span>Ethiopia</span></figcaption>
-      </figure>
-      <figure class="leader-card">
+        <div class="leader-card-caption"><strong>Menelik II</strong><span>Ethiopia</span></div>
+      </a>
+      <a class="leader-card" href="https://www.bilibili.com/video/BV1Eu1hYMEhZ/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=4b64c8ac85363331be19e548cc13d71c" target="_blank" rel="noopener">
         <img src="/assets/misc/philip-ii.png" alt="Philip II from Civilization VI" loading="lazy">
-        <figcaption><strong>Philip II</strong><span>Spain</span></figcaption>
-      </figure>
-      <figure class="leader-card">
+        <div class="leader-card-caption"><strong>Philip II</strong><span>Spain</span></div>
+      </a>
+      <a class="leader-card" href="https://www.bilibili.com/video/BV1u9zQYKEfY/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=4b64c8ac85363331be19e548cc13d71c" target="_blank" rel="noopener">
         <img src="/assets/misc/trajan.png" alt="Trajan from Civilization VI" loading="lazy">
-        <figcaption><strong>Trajan</strong><span>Rome</span></figcaption>
-      </figure>
+        <div class="leader-card-caption"><strong>Trajan</strong><span>Rome</span></div>
+      </a>
     </div>
   </section>
 
@@ -78,6 +81,6 @@ permalink: /miscellaneous/
   </section>
 
   <p class="misc-credits">
-    Sports photography by <a href="https://www.pexels.com/photo/tennis-player-in-action-on-the-court-35214632/">Ridwan Nugraha</a> and <a href="https://www.pexels.com/photo/a-person-swimming-in-the-pool-8688579/">Kindel Media</a> via Pexels. Civilization VI imagery © 2K/Firaxis; leader icons via <a href="https://www.civilopedia.net/">Civilopedia</a> and Kilwa Kisiwani image via <a href="https://www.gamersdecide.com/articles/civ-6-best-wonders">Gamers Decide</a>. Game key art via the official PlayStation pages for <a href="https://www.playstation.com/en-us/games/elden-ring/">Elden Ring</a> and <a href="https://store.playstation.com/en-us/product/UP1004-CUSA03041_00-REDEMPTIONFULL02">Red Dead Redemption 2</a>.
+    Tennis imagery and mark via <a href="https://novakdjokovic.com/en/photo/">Novak Djokovic's official website</a>; swimming photography by <a href="https://www.pexels.com/photo/a-person-swimming-in-the-pool-8688579/">Kindel Media</a> via Pexels. Civilization VI imagery © 2K/Firaxis; leader icons via <a href="https://www.civilopedia.net/">Civilopedia</a> and Kilwa Kisiwani image via <a href="https://www.gamersdecide.com/articles/civ-6-best-wonders">Gamers Decide</a>. Game key art via the official PlayStation pages for <a href="https://www.playstation.com/en-us/games/elden-ring/">Elden Ring</a> and <a href="https://store.playstation.com/en-us/product/UP1004-CUSA03041_00-REDEMPTIONFULL02">Red Dead Redemption 2</a>.
   </p>
 </div>
