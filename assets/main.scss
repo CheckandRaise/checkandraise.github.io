@@ -504,17 +504,17 @@ strong {
 }
 
 .publication-card-perishable {
-  background-image: url("/assets/research/perishable-inventory.webp");
+  background-image: url("/assets/research/perishable-sketch.webp");
   background-position: center;
 }
 
 .publication-card-serial {
-  background-image: url("/assets/research/serial-inventory.webp");
+  background-image: url("/assets/research/serial-sketch.webp");
   background-position: center;
 }
 
 .publication-card-assemble {
-  background-image: url("/assets/research/assemble-to-order.webp");
+  background-image: url("/assets/research/assemble-to-order-sketch.webp");
   background-position: center;
 }
 
@@ -828,12 +828,7 @@ strong {
   border-radius: 50%;
   background: rgba(5, 24, 23, 0.7);
   box-shadow: 0 10px 28px rgba(5, 24, 23, 0.22);
-  transition: transform 180ms ease, background 180ms ease;
-}
-
-.tennis-idol-mark:hover {
-  background: rgba(5, 24, 23, 0.9);
-  transform: rotate(5deg) scale(1.04);
+  pointer-events: none;
 }
 
 .tennis-idol-mark img {

@@ -21,9 +21,9 @@ permalink: /miscellaneous/
         <p>Tennis is one of my favorite ways to reset outside work. I currently play at approximately NTRP 3.0.</p>
         <span class="sport-badge">NTRP 3.0</span>
       </div>
-      <a class="tennis-idol-mark" href="https://novakdjokovic.com/en/" target="_blank" rel="noopener" aria-label="Visit Novak Djokovic's official website">
-        <img src="/assets/misc/novak-djokovic-mark.svg" alt="">
-      </a>
+      <div class="tennis-idol-mark">
+        <img src="/assets/misc/novak-djokovic-mark.svg" alt="Novak Djokovic mark">
+      </div>
     </article>
 
     <article class="sport-card sport-swimming">
