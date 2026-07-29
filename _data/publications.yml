@@ -3,6 +3,7 @@
   journal: "Management Science (Accepted)"
   year: 2026
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4638265"
+  featured: true
 
 - title: "Technical Properties of A Class of Heuristic Policies in Inventory Systems with Minimum Order Quantity"
   authors: "Shiyu Song, <strong>Huanyu Yin</strong> and Houcai Shen"
@@ -14,8 +15,10 @@
   journal: "Management Science (Major revision)"
   year: 2026
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6682679"
+  featured: true
 
 - title: "Asymptotic Optimality of Independent Base-Stock Policies in Assemble-to-Order Systems"
   authors: "<strong>Huanyu Yin</strong>"
   journal: "Operations Research Letters (Under review)"
   year: 2026
+  featured: true
