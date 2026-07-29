@@ -27,6 +27,15 @@ h1 {
   font-weight: 700;
 }
 
+/* 首页照片保留原始长方形比例 */
+.profile-photo {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
 /* ===== 段落间距 ===== */
 p {
   margin-bottom: 1em;

@@ -12,8 +12,11 @@ permalink: /cv/
 
 ## Academic Position
 
-**Postdoctoral Fellow**  
-The Chinese University of Hong Kong, 2025–Present  
+**Assistant Professor**<br>
+Shenzhen University, 2026–Present
+
+**Postdoctoral Fellow**<br>
+The Chinese University of Hong Kong, 2025–2026
 
 ---
 

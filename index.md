@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Huanyu Yin | Operations Management and Supply Chain Research
+title: Home
 --- 
 
 <table>
 <tr>
 <td width="30%">
 
-<img src="/assets/profile.jpg" width="180" style="border-radius: 50%;">
+<img src="/assets/profile.jpg" class="profile-photo" alt="Portrait of Huanyu Yin">
 
 </td>
 <td width="70%">
@@ -15,8 +15,8 @@ title: Huanyu Yin | Operations Management and Supply Chain Research
 <h1>Huanyu Yin | 印环宇 </h1>
 
 <p>
-Postdoctoral Fellow<br>
-The Chinese University of Hong Kong
+Assistant Professor<br>
+Shenzhen University
 </p>
 
 <p>
@@ -31,6 +31,6 @@ The Chinese University of Hong Kong
 
 ## About
 
-I am a Postdoctoral Fellow at the Chinese University of Hong Kong, working with Prof. Xiting Gong (龔錫挺). I received my Ph.D. in Operations Management from CUHK and my B.Sc. in Mathematics from Nanjing University.
+I am an Assistant Professor at Shenzhen University. I received my Ph.D. in Operations Management from The Chinese University of Hong Kong and my B.Sc. in Mathematics from Nanjing University.
 
 My research focuses on inventory and supply chain management, with an emphasis on simple policies design and asymptotic analysis on heuristic policies.
