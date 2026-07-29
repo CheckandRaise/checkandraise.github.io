@@ -61,7 +61,7 @@ title: Home
   <div class="featured-grid">
     {% for pub in site.data.publications %}
       {% if pub.featured %}
-      <article class="publication-card">
+      <article class="publication-card publication-card-{{ pub.featured_theme }}">
         <p class="publication-venue">{{ pub.journal }}</p>
         <h3>
           {% if pub.url %}

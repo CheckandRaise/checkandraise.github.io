@@ -78,6 +78,6 @@ permalink: /miscellaneous/
   </section>
 
   <p class="misc-credits">
-    Sports photography by <a href="https://www.pexels.com/photo/tennis-player-in-action-on-the-court-35214632/">Ridwan Nugraha</a> and <a href="https://www.pexels.com/photo/a-person-swimming-in-the-pool-8688579/">Kindel Media</a> via Pexels. Civilization VI imagery © 2K/Firaxis; leader icons via <a href="https://www.civilopedia.net/">Civilopedia</a> and Kilwa Kisiwani image via <a href="https://www.gamersdecide.com/articles/civ-6-best-wonders">Gamers Decide</a>.
+    Sports photography by <a href="https://www.pexels.com/photo/tennis-player-in-action-on-the-court-35214632/">Ridwan Nugraha</a> and <a href="https://www.pexels.com/photo/a-person-swimming-in-the-pool-8688579/">Kindel Media</a> via Pexels. Civilization VI imagery © 2K/Firaxis; leader icons via <a href="https://www.civilopedia.net/">Civilopedia</a> and Kilwa Kisiwani image via <a href="https://www.gamersdecide.com/articles/civ-6-best-wonders">Gamers Decide</a>. Game key art via the official PlayStation pages for <a href="https://www.playstation.com/en-us/games/elden-ring/">Elden Ring</a> and <a href="https://store.playstation.com/en-us/product/UP1004-CUSA03041_00-REDEMPTIONFULL02">Red Dead Redemption 2</a>.
   </p>
 </div>

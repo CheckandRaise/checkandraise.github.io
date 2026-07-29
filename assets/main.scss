@@ -455,24 +455,59 @@ strong {
 .publication-card {
   position: relative;
   overflow: hidden;
-  min-height: 255px;
+  isolation: isolate;
+  min-height: 310px;
   padding: 24px 22px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-top: 4px solid var(--accent);
-  background: #fff;
+  background-color: #173b36;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 26px rgba(23, 51, 47, 0.1);
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.publication-card::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(8, 25, 28, 0.26) 0%, rgba(8, 25, 28, 0.68) 46%, rgba(8, 25, 28, 0.94) 100%);
+  pointer-events: none;
 }
 
 .publication-card::after {
   content: "";
   position: absolute;
+  z-index: 0;
   right: -26px;
   bottom: -26px;
   width: 72px;
   height: 72px;
-  border: 1px solid rgba(13, 102, 93, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transform: rotate(45deg);
   pointer-events: none;
+}
+
+.publication-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.publication-card-perishable {
+  background-image: url("/assets/research/perishable-inventory.webp");
+  background-position: center 44%;
+}
+
+.publication-card-serial {
+  background-image: url("/assets/research/serial-inventory.webp");
+  background-position: 58% center;
+}
+
+.publication-card-assemble {
+  background-image: url("/assets/research/assemble-to-order.webp");
+  background-position: 58% center;
 }
 
 .publication-card:nth-child(2) {
@@ -491,7 +526,8 @@ strong {
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.4;
-  color: var(--warm);
+  color: #ffd4a8;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
   text-transform: uppercase;
 }
 
@@ -500,21 +536,24 @@ strong {
   font-family: "Iowan Old Style", "Baskerville", "Georgia", serif;
   font-size: 19px;
   line-height: 1.45;
+  color: #fff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.42);
 }
 
 .publication-card h3 a {
-  color: var(--ink);
+  color: #fff;
 }
 
 .publication-card h3 a:hover {
-  color: var(--accent);
+  color: #ffe3c7;
 }
 
 .publication-authors {
   margin: 0;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 15px;
   line-height: 1.5;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
 }
 
 @keyframes rise-in {
@@ -958,34 +997,72 @@ strong {
 .game-card {
   position: relative;
   overflow: hidden;
-  min-height: 155px;
-  padding: 24px;
-  border: 1px solid var(--line);
-  background: #fff;
+  isolation: isolate;
+  display: flex;
+  min-height: 290px;
+  padding: 28px;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: #102f2c;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 12px 28px rgba(23, 51, 47, 0.12);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.game-card::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(6, 17, 20, 0.08) 12%, rgba(6, 17, 20, 0.52) 58%, rgba(6, 17, 20, 0.94) 100%);
+  pointer-events: none;
 }
 
 .game-card::after {
   content: "";
   position: absolute;
+  z-index: 0;
   right: -38px;
   bottom: -38px;
   width: 98px;
   height: 98px;
-  border: 18px solid rgba(13, 102, 93, 0.045);
+  border: 18px solid rgba(255, 255, 255, 0.08);
   border-radius: 50%;
+  pointer-events: none;
+}
+
+.game-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 34px rgba(23, 51, 47, 0.2);
 }
 
 .game-elden {
   border-top: 4px solid var(--warm);
+  background-image: url("/assets/misc/elden-ring.webp");
+  background-position: center 38%;
 }
 
 .game-rdr {
-  border-top: 4px solid var(--accent);
+  border-top: 4px solid #d93824;
+  background-image: url("/assets/misc/red-dead-redemption-2.webp");
+  background-position: center 32%;
 }
 
 .game-meta {
+  align-self: flex-start;
   margin: 0 0 10px;
-  color: var(--warm);
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(6, 17, 20, 0.7);
+  color: #ffd4a8;
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 11px;
   font-weight: 700;
@@ -995,14 +1072,17 @@ strong {
 
 .game-card h3 {
   margin: 0 0 8px;
+  color: #fff;
   font-size: 23px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.48);
 }
 
 .game-card > p:last-child {
   position: relative;
   z-index: 1;
   margin: 0;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.84);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.42);
 }
 
 .misc-credits {
@@ -1074,5 +1154,9 @@ strong {
 
   .game-grid {
     grid-template-columns: 1fr;
+  }
+
+  .game-card {
+    min-height: 310px;
   }
 }
