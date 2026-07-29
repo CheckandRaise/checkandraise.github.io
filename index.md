@@ -4,6 +4,8 @@ title: Home
 --- 
 
 <section class="home-hero">
+  <span class="math-watermark hero-math" aria-hidden="true">lim n→∞</span>
+
   <div class="portrait-frame">
     <img src="/assets/profile.jpg" class="profile-photo" alt="Portrait of Huanyu Yin">
   </div>
@@ -25,6 +27,7 @@ title: Home
 
 <div class="home-overview">
   <section class="home-panel about-panel">
+    <span class="math-watermark panel-math" aria-hidden="true">E[C(π)]</span>
     <p class="section-label">Profile</p>
     <h2>About</h2>
     <p>I am an Assistant Professor at the School of Economics, Shenzhen University. I received my Ph.D. in Operations Management from The Chinese University of Hong Kong under the supervision of Prof. Xiting Gong (龔錫挺), and my B.Sc. in Mathematics from Nanjing University.</p>
@@ -32,6 +35,7 @@ title: Home
   </section>
 
   <section class="home-panel areas-panel">
+    <span class="math-watermark panel-math" aria-hidden="true">Σ q(t)</span>
     <p class="section-label">Focus</p>
     <h2>Research Areas</h2>
     <ul class="research-areas">
@@ -44,6 +48,8 @@ title: Home
 </div>
 
 <section class="featured-section">
+  <span class="math-watermark featured-math" aria-hidden="true">∫₀∞ f(x) dx</span>
+
   <div class="section-heading">
     <div>
       <p class="section-label">Selected Work</p>
