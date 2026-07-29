@@ -1,0 +1,83 @@
+---
+layout: default
+title: Miscellaneous
+permalink: /miscellaneous/
+---
+
+<div class="misc-page">
+  <header class="misc-hero">
+    <p class="misc-kicker">Beyond Research</p>
+    <h1>Miscellaneous</h1>
+    <p>Outside research, I enjoy staying active in the water and on the court, and getting lost in richly built game worlds.</p>
+    <span class="misc-orbit misc-orbit-one" aria-hidden="true"></span>
+    <span class="misc-orbit misc-orbit-two" aria-hidden="true"></span>
+  </header>
+
+  <section class="sport-grid" aria-label="Sports and outdoor interests">
+    <article class="sport-card sport-tennis">
+      <div class="sport-card-content">
+        <p class="misc-kicker">On the Court</p>
+        <h2>Tennis</h2>
+        <p>Tennis is one of my favorite ways to reset outside work. I currently play at approximately NTRP 3.0.</p>
+        <span class="sport-badge">NTRP 3.0</span>
+      </div>
+    </article>
+
+    <article class="sport-card sport-swimming">
+      <div class="sport-card-content">
+        <p class="misc-kicker">In the Water</p>
+        <h2>Swimming &amp; Diving</h2>
+        <p>Freestyle is my strongest stroke, followed by breaststroke. I also swim backstroke and butterfly, and hold an Open Water (OW) diver certification.</p>
+        <span class="sport-badge">OW Certified</span>
+      </div>
+    </article>
+  </section>
+
+  <section class="civ-showcase">
+    <div class="civ-copy">
+      <p class="misc-kicker">One More Turn</p>
+      <h2>Sid Meier's Civilization VI</h2>
+      <p>I enjoy Civilization VI and share gameplay videos as a creator on Bilibili. My favorite civilizations are Ethiopia, Spain, and Rome.</p>
+      <a class="misc-button" href="https://space.bilibili.com/57625887/upload/video" target="_blank" rel="noopener">Watch on Bilibili <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="leader-grid" aria-label="Favorite Civilization VI leaders">
+      <figure class="leader-card">
+        <img src="/assets/misc/menelik-ii.png" alt="Menelik II from Civilization VI" loading="lazy">
+        <figcaption><strong>Menelik II</strong><span>Ethiopia</span></figcaption>
+      </figure>
+      <figure class="leader-card">
+        <img src="/assets/misc/philip-ii.png" alt="Philip II from Civilization VI" loading="lazy">
+        <figcaption><strong>Philip II</strong><span>Spain</span></figcaption>
+      </figure>
+      <figure class="leader-card">
+        <img src="/assets/misc/trajan.png" alt="Trajan from Civilization VI" loading="lazy">
+        <figcaption><strong>Trajan</strong><span>Rome</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="other-games">
+    <div class="misc-section-heading">
+      <p class="misc-kicker">Other Worlds</p>
+      <h2>More Games I Enjoy</h2>
+    </div>
+
+    <div class="game-grid">
+      <article class="game-card game-elden">
+        <p class="game-meta">PS5 · 100% Trophies</p>
+        <h3>Elden Ring</h3>
+        <p>A world I explored all the way to the final trophy.</p>
+      </article>
+      <article class="game-card game-rdr">
+        <p class="game-meta">Open-World Favorite</p>
+        <h3>Red Dead Redemption 2</h3>
+        <p>A favorite for its scale, atmosphere, and storytelling.</p>
+      </article>
+    </div>
+  </section>
+
+  <p class="misc-credits">
+    Sports photography by <a href="https://www.pexels.com/photo/tennis-player-in-action-on-the-court-35214632/">Ridwan Nugraha</a> and <a href="https://www.pexels.com/photo/a-person-swimming-in-the-pool-8688579/">Kindel Media</a> via Pexels. Civilization VI imagery © 2K/Firaxis; leader icons via <a href="https://www.civilopedia.net/">Civilopedia</a> and Kilwa Kisiwani image via <a href="https://www.gamersdecide.com/articles/civ-6-best-wonders">Gamers Decide</a>.
+  </p>
+</div>
