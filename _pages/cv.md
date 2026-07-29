@@ -13,7 +13,7 @@ permalink: /cv/
 ## Academic Position
 
 **Assistant Professor**<br>
-Shenzhen University, 2026–Present
+School of Economics, Shenzhen University, 2026–Present
 
 **Postdoctoral Fellow**<br>
 The Chinese University of Hong Kong, 2025–2026
@@ -61,7 +61,7 @@ Nanjing University, 2016–2020
 - 2025 CUHK-CUHKSZ Joint OM Day, Hong Kong, Feb 28, 2025  
 - Durham University Early Career Scholars Workshop, Durham, Jun 25-26, 2025  
 
-**"Simple Policies for Serial Inventory Systems with Lost Sales: Beyond Echelon Base-Stock Policy"**  
+**["Simple Policies for Serial Inventory Systems with Lost Sales: Beyond the Echelon Base-Stock Policy"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6682679)**<br>
 - 2025 INFORMS MSOM Conference, London, Jun 27-29, 2025  
 - 16th POMS HK International Conference, CUHKSZ, Jan 2-4, 2026  
 
