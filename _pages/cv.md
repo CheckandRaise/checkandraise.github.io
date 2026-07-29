@@ -4,6 +4,11 @@ title: CV
 permalink: /cv/
 ---
 
+<div class="academic-page cv-page" markdown="1">
+<span class="math-watermark page-math cv-math-top" aria-hidden="true">C<sup>φ,π</sup> = limsup<sub>T→∞</sub> T<sup>−1</sup> Σ E[C<sub>t</sub><sup>φ,π</sup>]</span>
+<span class="math-watermark page-math cv-math-middle" aria-hidden="true">E[I<sub>t+L</sub> | y<sub>t</sub>] = U</span>
+<span class="math-watermark page-math cv-math-lower" aria-hidden="true">lim<sub>p→∞</sub> C<sub>p</sub><sup>EP</sup> / OPT<sub>p</sub> = 1</span>
+
 # Curriculum Vitae
 
 [Download CV](../assets/cv.pdf)
@@ -84,3 +89,5 @@ Review Instructor, CUHK
 
 **Decision Models and Applications (Master’s)**  
 Tutorial Instructor, CUHK  
+
+</div>

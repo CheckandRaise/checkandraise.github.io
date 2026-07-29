@@ -4,6 +4,10 @@ title: Research
 permalink: /research/
 ---
 
+<div class="academic-page research-page" markdown="1">
+<span class="math-watermark page-math page-math-top" aria-hidden="true">OPT<sup>φ</sup> = inf<sub>π∈Πφ</sub> C<sup>φ,π</sup></span>
+<span class="math-watermark page-math research-math-middle" aria-hidden="true">U<sub>n</sub>(β) = F<sup>−1</sup><sub>τ̂ₙ+1</sub>(β) − τ̂<sub>n</sub>μ</span>
+
 # Publications
 
 {% for pub in site.data.publications %}
@@ -25,3 +29,5 @@ permalink: /research/
 <hr>
 
 {% endfor %}
+
+</div>

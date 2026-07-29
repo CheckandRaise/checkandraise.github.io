@@ -301,17 +301,24 @@ strong {
   z-index: 0;
   pointer-events: none;
   user-select: none;
+  white-space: nowrap;
   font-family: "Iowan Old Style", "Baskerville", "Georgia", serif;
   font-style: italic;
   font-weight: 600;
   color: rgba(13, 102, 93, 0.11);
 }
 
+.math-watermark sub,
+.math-watermark sup {
+  font-size: 0.68em;
+  line-height: 0;
+}
+
 .hero-math {
   right: 42px;
   top: 34px;
-  font-size: 23px;
-  letter-spacing: 0.04em;
+  font-size: 18px;
+  letter-spacing: 0.01em;
   transform: rotate(-4deg);
 }
 
@@ -380,7 +387,13 @@ strong {
 .panel-math {
   right: 24px;
   top: 22px;
-  font-size: 21px;
+  font-size: 17px;
+}
+
+.panel-math-wide {
+  top: 18px;
+  font-size: 13px;
+  letter-spacing: -0.02em;
 }
 
 .research-areas {
@@ -427,9 +440,61 @@ strong {
 .featured-math {
   right: 30px;
   bottom: 18px;
-  font-size: 24px;
+  font-size: 19px;
   color: rgba(182, 100, 60, 0.1);
   transform: rotate(-3deg);
+}
+
+/* Research and CV page formula watermarks */
+.academic-page {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 4px 2px;
+}
+
+.academic-page > *:not(.page-math) {
+  position: relative;
+  z-index: 1;
+}
+
+.page-math {
+  font-size: 18px;
+  line-height: 1;
+  color: rgba(13, 102, 93, 0.075);
+}
+
+.page-math-top {
+  top: 20px;
+  right: 12px;
+  transform: rotate(-3deg);
+}
+
+.research-math-middle {
+  top: 54%;
+  right: 5%;
+  color: rgba(182, 100, 60, 0.07);
+  transform: rotate(2deg);
+}
+
+.cv-math-top {
+  top: 2%;
+  right: 3%;
+  font-size: 16px;
+  transform: rotate(-2deg);
+}
+
+.cv-math-middle {
+  top: 37%;
+  right: 4%;
+  transform: rotate(3deg);
+}
+
+.cv-math-lower {
+  top: 72%;
+  left: 38%;
+  color: rgba(182, 100, 60, 0.07);
+  transform: rotate(-2deg);
 }
 
 .section-heading {
@@ -639,7 +704,20 @@ strong {
   .hero-math {
     right: 22px;
     top: 18px;
-    font-size: 18px;
+    font-size: 13px;
+  }
+
+  .page-math {
+    font-size: 13px;
+    color: rgba(13, 102, 93, 0.065);
+  }
+
+  .research-math-middle {
+    right: 0;
+  }
+
+  .cv-math-lower {
+    left: 8%;
   }
 
   .hero-email {
