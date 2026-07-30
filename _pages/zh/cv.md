@@ -1,9 +1,9 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
-lang: en
-alternate_url: /zh/cv/
+title: 简历
+permalink: /zh/cv/
+lang: zh-CN
+alternate_url: /cv/
 ---
 
 <div class="academic-page cv-page" markdown="1">
@@ -11,13 +11,13 @@ alternate_url: /zh/cv/
 <span class="math-watermark page-math cv-math-middle" aria-hidden="true">E[I<sub>t+L</sub> | y<sub>t</sub>] = U</span>
 <span class="math-watermark page-math cv-math-lower" aria-hidden="true">lim<sub>p→∞</sub> C<sub>p</sub><sup>EP</sup> / OPT<sub>p</sub> = 1</span>
 
-# Curriculum Vitae
+# 个人简历
 
-[Download CV](../assets/cv.pdf)
+[下载英文 CV](/assets/cv.pdf)
 
 ---
 
-## Academic Position
+## 学术任职
 
 **Assistant Professor**<br>
 School of Economics, Shenzhen University, 2026–Present
@@ -27,7 +27,7 @@ The Chinese University of Hong Kong, 2025–2026
 
 ---
 
-## Education
+## 教育经历
 
 **Ph.D. in Operations Management**  
 The Chinese University of Hong Kong, 2020–2025  
@@ -37,23 +37,23 @@ Nanjing University, 2016–2020
 
 ---
 
-## Research Interests
+## 研究兴趣
 
-- Inventory Management  
-- Supply Chain Management  
-- Stochastic Systems  
-- Asymptotic Analysis  
+- 库存管理  
+- 供应链管理  
+- 随机系统  
+- 渐近分析  
 
 ---
 
-## Honors and Awards
+## 荣誉与奖励
 
 - Honorable Mention, POMS-HK Best Student Paper Competition (2024)  
 - Competitive Graduate Student Research Grant, CUHK (2023)  
 
 ---
 
-## Conference Presentations
+## 学术会议报告
 
 **"Asymptotic Optimality of Projected Inventory Level Policies for Perishable Inventory Systems with Positive Lead Times"**  
 - 13rd POMS HK International Conference, PolyU, Jan 7-8, 2023  
@@ -74,9 +74,9 @@ Nanjing University, 2016–2020
 
 ---
 
-## Professional Service
+## 学术服务
 
-Ad hoc Reviewer for:
+匿名审稿期刊：
 - Manufacturing & Service Operations Management  
 - Naval Research Logistics  
 - Operations Research Letters  
@@ -84,7 +84,7 @@ Ad hoc Reviewer for:
 
 ---
 
-## Teaching
+## 教学经历
 
 **Operations Management (Undergraduate)**  
 Review Instructor, CUHK  

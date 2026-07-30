@@ -1,0 +1,134 @@
+bali:
+  title: "巴厘岛"
+  eyebrow: "印度尼西亚 · 2026年5月"
+  description: "岛屿南岸的海上光影、浪潮与安静的人物剪影。"
+  photos:
+    bali-01:
+      sublocation: "巴厘岛"
+      caption: "小船在碧蓝海面划出圆弧"
+      alt: "一艘小船在碧蓝海面划出圆弧"
+      date: "2026年5月26日"
+    bali-02:
+      sublocation: "巴厘岛"
+      caption: "岸边等待浪潮的冲浪者"
+      alt: "冲浪者们在巴厘岛岸边等待浪潮"
+      date: "2026年5月28日"
+    bali-03:
+      sublocation: "巴厘岛"
+      caption: "穿过明亮海面的身影"
+      alt: "几个人影穿过巴厘岛明亮的海面"
+      date: "2026年5月28日"
+    bali-04:
+      sublocation: "巴厘岛"
+      caption: "落日轻触海平线"
+      alt: "巴厘岛海平线上的落日"
+      date: "2026年5月28日"
+
+turkiye:
+  title: "土耳其"
+  eyebrow: "Cappadocia · Antalya · Istanbul · 2025"
+  description: "岩石峡谷、地中海的光，以及蓝调时刻层叠的 Istanbul 天际线。"
+  photos:
+    turkiye-cappadocia-01:
+      sublocation: "Cappadocia"
+      caption: "俯瞰 Cappadocia 的峡谷"
+      alt: "从高处俯瞰 Cappadocia 的峡谷"
+      date: "2025年12月25日"
+    turkiye-cappadocia-02:
+      sublocation: "Cappadocia"
+      caption: "岩石洞口中的 Cappadocia"
+      alt: "从岩石洞口望向 Cappadocia"
+      date: "2025年12月25日"
+    turkiye-antalya-01:
+      sublocation: "Antalya"
+      caption: "Antalya 老港与地中海海岸"
+      alt: "Antalya 老港和地中海海岸"
+      date: "2025年12月27日"
+    turkiye-antalya-02:
+      sublocation: "Antalya"
+      caption: "日光下地中海边的安静身影"
+      alt: "一个人安静地站在阳光照耀的地中海边"
+      date: "2025年12月28日"
+    turkiye-antalya-03:
+      sublocation: "Antalya"
+      caption: "排列成几何图案的水果摊"
+      alt: "水果摊上的水果排列成几何图案"
+      date: "2025年12月28日"
+    turkiye-istanbul-01:
+      sublocation: "Istanbul"
+      caption: "Bosphorus 海峡上方的清真寺"
+      alt: "清真寺耸立在 Bosphorus 海峡上方"
+      date: "2025年12月29日"
+    turkiye-istanbul-02:
+      sublocation: "Istanbul"
+      caption: "晚霞映衬下的 Istanbul 清真寺"
+      alt: "一座 Istanbul 清真寺映衬着发光的天空"
+      date: "2025年12月29日"
+    turkiye-istanbul-03:
+      sublocation: "Istanbul"
+      caption: "蓝调时刻的穹顶与尖塔"
+      alt: "蓝调时刻 Istanbul 的穹顶与尖塔"
+      date: "2025年12月30日"
+
+hong-kong:
+  title: "香港"
+  eyebrow: "Hong Kong · 2023–2024"
+  description: "山脊、街区灯光，以及城市边缘更安静的一面。"
+  photos:
+    hong-kong-ridge:
+      sublocation: "Lantau Island"
+      caption: "穿过香港海岸山脊的徒步者"
+      alt: "一名徒步者穿过香港的海岸山脊"
+      date: "2024年1月13日"
+    hong-kong-shore:
+      sublocation: "Lantau Island"
+      caption: "独自走过香港海滩的身影"
+      alt: "一个人独自走在香港的海滩上"
+      date: "2024年1月13日"
+    hong-kong-terminal:
+      sublocation: "Hong Kong"
+      caption: "航站楼里的流动与光"
+      alt: "香港一座航站楼内的流动人群与灯光"
+      date: "2023年12月16日"
+    hong-kong-neon:
+      sublocation: "Hong Kong"
+      caption: "入夜后的霓虹街道"
+      alt: "香港入夜后被霓虹灯照亮的街道"
+      date: "2023年12月16日"
+
+boston:
+  title: "Boston"
+  eyebrow: "Massachusetts · 2026年7月"
+  description: "城市水岸与绿地之间偶遇的小小片段。"
+  photos:
+    boston-geese:
+      sublocation: "Boston"
+      caption: "聚集在城市绿地上的 Canada geese"
+      alt: "一群 Canada geese 聚集在 Boston 的绿地上"
+      date: "2026年7月13日"
+    boston-water-taxi:
+      sublocation: "Boston Harbor"
+      caption: "停靠在码头边的黄色 water taxi"
+      alt: "一艘黄色 water taxi 停靠在 Boston Harbor 码头边"
+      date: "2026年7月15日"
+
+london:
+  title: "London"
+  eyebrow: "United Kingdom · 2025年6月"
+  description: "St Paul's、The Shard，以及街道与倒影中的城市几何。"
+  photos:
+    london-st-pauls-street:
+      sublocation: "City of London"
+      caption: "街道尽头的 St Paul's Cathedral"
+      alt: "St Paul's Cathedral 出现在 London 街道尽头"
+      date: "2025年6月24日"
+    london-st-pauls-reflection:
+      sublocation: "City of London"
+      caption: "现代倒影中的 St Paul's Cathedral"
+      alt: "St Paul's Cathedral 被现代建筑的倒影框住"
+      date: "2025年6月24日"
+    london-shard:
+      sublocation: "London Bridge"
+      caption: "深色城市墙面之间的 The Shard"
+      alt: "The Shard 从深色城市墙面之间升起"
+      date: "2025年6月28日"

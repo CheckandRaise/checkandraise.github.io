@@ -99,6 +99,73 @@ strong {
   font-size: 15px;
 }
 
+.site-nav .page-link-current {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.site-nav .language-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  min-height: 28px;
+  box-sizing: border-box;
+  margin-left: 12px;
+  padding: 0 9px;
+  border: 1px solid rgba(182, 100, 60, 0.34);
+  background: rgba(246, 238, 230, 0.86);
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.site-nav .language-switch:hover {
+  border-color: rgba(182, 100, 60, 0.58);
+  background: var(--soft-warm);
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+html[lang="zh-CN"] body {
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+}
+
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3,
+html[lang="zh-CN"] h4,
+html[lang="zh-CN"] .site-title,
+html[lang="zh-CN"] .site-nav .page-link,
+html[lang="zh-CN"] .button {
+  font-family: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.hero-role-secondary {
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+
+html[lang="zh-CN"] .hero-email::before {
+  content: "邮箱";
+}
+
 .page-content {
   padding: 48px 0 70px;
 }
@@ -686,6 +753,20 @@ strong {
     z-index: 110;
     background-color: var(--papyrus-light);
     box-shadow: 0 14px 30px rgba(23, 51, 47, 0.16);
+  }
+
+  .site-nav .trigger {
+    overflow-y: auto;
+    max-height: calc(100vh - 64px);
+    padding-bottom: 8px;
+  }
+
+  .site-nav .language-switch {
+    display: flex;
+    width: max-content;
+    min-width: 48px;
+    margin: 8px 10px 8px 20px;
+    padding: 8px 12px;
   }
 
   .home-hero {

@@ -1,26 +1,27 @@
 ---
 layout: home
-title: Home
-lang: en
-alternate_url: /zh/
---- 
+title: 首页
+permalink: /zh/
+lang: zh-CN
+alternate_url: /
+---
 
 <section class="home-hero">
   <span class="math-watermark hero-math" aria-hidden="true">q<sub>t</sub> = (U − E[I<sub>t+L</sub> | y<sub>t</sub>])<sup>+</sup></span>
 
   <div class="portrait-frame">
-    <img src="/assets/profile.jpg" class="profile-photo" alt="Portrait of Huanyu Yin">
+    <img src="/assets/profile.jpg" class="profile-photo" alt="印环宇肖像">
   </div>
 
   <div class="hero-content">
-    <p class="hero-kicker">Operations Management · Shenzhen</p>
+    <p class="hero-kicker">运营管理 · 深圳</p>
     <h1 class="hero-name">Huanyu Yin <span>印环宇</span></h1>
-    <p class="hero-role">Assistant Professor, School of Economics, Shenzhen University</p>
-    <p class="hero-role-cn">深圳大学经济学院助理教授</p>
+    <p class="hero-role">深圳大学经济学院助理教授</p>
+    <p class="hero-role-cn hero-role-secondary">Assistant Professor, School of Economics, Shenzhen University</p>
 
     <div class="hero-actions">
-      <a class="button button-primary" href="/research/">View Research</a>
-      <a class="button button-secondary" href="/assets/cv.pdf">Download CV</a>
+      <a class="button button-primary" href="/zh/research/">查看研究</a>
+      <a class="button button-secondary" href="/assets/cv.pdf">下载英文 CV</a>
     </div>
 
     <a class="hero-email" href="mailto:huanyu.operationr@gmail.com">huanyu.operationr@gmail.com</a>
@@ -30,21 +31,21 @@ alternate_url: /zh/
 <div class="home-overview">
   <section class="home-panel about-panel">
     <span class="math-watermark panel-math" aria-hidden="true">Var(I<sub>t+L</sub>) ≤ L Var(D)</span>
-    <p class="section-label">Profile</p>
-    <h2>About</h2>
-    <p>I am an Assistant Professor at the School of Economics, Shenzhen University. I received my Ph.D. in Operations Management from The Chinese University of Hong Kong under the supervision of Prof. Xiting Gong (龔錫挺), and my B.Sc. in Mathematics from Nanjing University.</p>
-    <p>My research focuses on inventory and supply chain management, especially the design of simple heuristic policies and their asymptotic analysis.</p>
+    <p class="section-label">个人简介</p>
+    <h2>关于我</h2>
+    <p>我现任深圳大学经济学院助理教授。我在 The Chinese University of Hong Kong 获得 Operations Management 博士学位，导师为 Prof. Xiting Gong (龔錫挺)；本科毕业于 Nanjing University，获 Mathematics 理学学士学位。</p>
+    <p>我的研究聚焦库存与供应链管理，尤其关注简单启发式策略的设计及其渐近分析。</p>
   </section>
 
   <section class="home-panel areas-panel">
     <span class="math-watermark panel-math panel-math-wide" aria-hidden="true">IP<sup>n</sup><sub>t+1</sub> = IP<sup>n</sup><sub>t</sub> + q<sup>n</sup><sub>t+τₙ</sub> − D<sub>t</sub> + ℓ<sub>t</sub></span>
-    <p class="section-label">Focus</p>
-    <h2>Research Areas</h2>
+    <p class="section-label">研究方向</p>
+    <h2>研究领域</h2>
     <ul class="research-areas">
-      <li>Inventory Management</li>
-      <li>Supply Chain Management</li>
-      <li>Asymptotic Analysis</li>
-      <li>Simple Heuristic Policies</li>
+      <li>库存管理</li>
+      <li>供应链管理</li>
+      <li>渐近分析</li>
+      <li>简单启发式策略</li>
     </ul>
   </section>
 </div>
@@ -54,10 +55,10 @@ alternate_url: /zh/
 
   <div class="section-heading">
     <div>
-      <p class="section-label">Selected Work</p>
-      <h2>Research Highlights</h2>
+      <p class="section-label">代表性工作</p>
+      <h2>研究精选</h2>
     </div>
-    <a class="section-link" href="/research/">View all research <span aria-hidden="true">→</span></a>
+    <a class="section-link" href="/zh/research/">查看全部研究 <span aria-hidden="true">→</span></a>
   </div>
 
   <div class="featured-grid">

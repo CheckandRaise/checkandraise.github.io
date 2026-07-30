@@ -6,6 +6,17 @@
   {%- seo -%}
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+  {%- if page.alternate_url -%}
+    {%- if page.lang == "zh-CN" -%}
+  <link rel="alternate" hreflang="zh-CN" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ page.alternate_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.alternate_url | absolute_url }}">
+    {%- else -%}
+  <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ page.alternate_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+    {%- endif -%}
+  {%- endif -%}
   {%- feed_meta -%}
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
