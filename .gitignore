@@ -1,0 +1,6 @@
+# Keep source photography local; only optimized web images belong in Git.
+_photo_inbox/*
+!_photo_inbox/README.md
+
+.DS_Store
+__pycache__/
