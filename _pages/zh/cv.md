@@ -32,8 +32,8 @@ The Chinese University of Hong Kong, 2025–2026
 **Ph.D. in Operations Management**  
 The Chinese University of Hong Kong, 2020–2025  
 
-**B.Sc. in Mathematics**  
-Nanjing University, 2016–2020  
+**数学理学学士学位**<br>
+南京大学, 2016–2020
 
 ---
 

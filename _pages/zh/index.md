@@ -33,7 +33,7 @@ alternate_url: /
     <span class="math-watermark panel-math" aria-hidden="true">Var(I<sub>t+L</sub>) ≤ L Var(D)</span>
     <p class="section-label">个人简介</p>
     <h2>关于我</h2>
-    <p>我现任深圳大学经济学院助理教授。我在 The Chinese University of Hong Kong 获得 Operations Management 博士学位，导师为 Prof. Xiting Gong (龔錫挺)；本科毕业于 Nanjing University，获 Mathematics 理学学士学位。</p>
+    <p>我现任深圳大学经济学院助理教授。我在 The Chinese University of Hong Kong 获得 Operations Management 博士学位，导师为 Prof. Xiting Gong (龔錫挺)；本科毕业于南京大学，获数学理学学士学位。</p>
     <p>我的研究聚焦库存与供应链管理，尤其关注简单启发式策略的设计及其渐近分析。</p>
   </section>
 
