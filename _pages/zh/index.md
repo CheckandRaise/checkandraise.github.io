@@ -10,7 +10,11 @@ alternate_url: /
   <span class="math-watermark hero-math" aria-hidden="true">q<sub>t</sub> = (U − E[I<sub>t+L</sub> | y<sub>t</sub>])<sup>+</sup></span>
 
   <div class="portrait-frame">
-    <img src="/assets/profile.png" class="profile-photo" alt="印环宇肖像" width="1023" height="1537" fetchpriority="high" decoding="async">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="/assets/huanyu_ocean_king_with_universities.png" type="image/png">
+      <source srcset="/assets/huanyu_ocean_king_animated.webp" type="image/webp">
+      <img src="/assets/huanyu_ocean_king_animated.gif" class="profile-photo" alt="印环宇的 Ocean King 动态卡通肖像" width="640" height="960" fetchpriority="high" decoding="async">
+    </picture>
   </div>
 
   <div class="hero-content">

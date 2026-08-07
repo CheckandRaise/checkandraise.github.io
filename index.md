@@ -9,7 +9,11 @@ alternate_url: /zh/
   <span class="math-watermark hero-math" aria-hidden="true">q<sub>t</sub> = (U − E[I<sub>t+L</sub> | y<sub>t</sub>])<sup>+</sup></span>
 
   <div class="portrait-frame">
-    <img src="/assets/profile.png" class="profile-photo" alt="Portrait of Huanyu Yin" width="1023" height="1537" fetchpriority="high" decoding="async">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="/assets/huanyu_ocean_king_with_universities.png" type="image/png">
+      <source srcset="/assets/huanyu_ocean_king_animated.webp" type="image/webp">
+      <img src="/assets/huanyu_ocean_king_animated.gif" class="profile-photo" alt="Animated Ocean King portrait of Huanyu Yin" width="640" height="960" fetchpriority="high" decoding="async">
+    </picture>
   </div>
 
   <div class="hero-content">
