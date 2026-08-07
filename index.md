@@ -9,7 +9,7 @@ alternate_url: /zh/
   <span class="math-watermark hero-math" aria-hidden="true">q<sub>t</sub> = (U − E[I<sub>t+L</sub> | y<sub>t</sub>])<sup>+</sup></span>
 
   <div class="portrait-frame">
-    <img src="/assets/profile.jpg" class="profile-photo" alt="Portrait of Huanyu Yin">
+    <img src="/assets/profile.png" class="profile-photo" alt="Portrait of Huanyu Yin" width="1023" height="1537" fetchpriority="high" decoding="async">
   </div>
 
   <div class="hero-content">
