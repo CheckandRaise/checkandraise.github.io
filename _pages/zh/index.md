@@ -25,7 +25,7 @@ alternate_url: /
 
     <div class="hero-actions">
       <a class="button button-primary" href="/zh/research/">查看研究</a>
-      <a class="button button-secondary" href="/assets/cv.pdf">下载英文 CV</a>
+      <a class="button button-secondary" href="/assets/cv_cn.pdf">下载中文 CV</a>
     </div>
 
     <a class="hero-email" href="mailto:huanyu.operationr@gmail.com">huanyu.operationr@gmail.com</a>

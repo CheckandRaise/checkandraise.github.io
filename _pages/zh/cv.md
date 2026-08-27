@@ -13,7 +13,7 @@ alternate_url: /cv/
 
 # 个人简历
 
-[下载英文 CV](/assets/cv.pdf)
+[下载中文 CV](/assets/cv_cn.pdf) · [下载英文 CV](/assets/cv.pdf)
 
 ---
 
