@@ -24,6 +24,57 @@ bali:
       alt: "巴厘岛海平线上的落日"
       date: "2026年5月28日"
 
+kyushu:
+  title: "日本九州"
+  eyebrow: "日本 · 2026年10月"
+  description: "林间神社、峡谷溪流、金色田野，以及渐隐于雾中的山峦。"
+  photos:
+    kyushu-01:
+      sublocation: "九州"
+      caption: "圆形洞口中的林间光影"
+      alt: "透过圆形洞口望见林间的枝叶与光影"
+      date: "2026年10月3日"
+    kyushu-02:
+      sublocation: "九州"
+      caption: "参天树木下的神社小径"
+      alt: "一条神社小径延伸到参天树木之间"
+      date: "2026年10月3日"
+    kyushu-03:
+      sublocation: "九州"
+      caption: "穿过鸟居的安静身影"
+      alt: "一个身影沿着林间神社小径穿过鸟居"
+      date: "2026年10月3日"
+    kyushu-04:
+      sublocation: "九州"
+      caption: "林间神社旁的硬币与竹柄水勺"
+      alt: "硬币与一把竹柄水勺摆放在林间神社旁"
+      date: "2026年10月3日"
+    kyushu-05:
+      sublocation: "九州"
+      caption: "深邃峡谷上方的桥"
+      alt: "一座桥横跨绿树环绕的深邃峡谷"
+      date: "2026年10月3日"
+    kyushu-06:
+      sublocation: "九州"
+      caption: "流过青苔石块的溪水"
+      alt: "溪水流过林间覆盖着青苔的石块"
+      date: "2026年10月3日"
+    kyushu-07:
+      sublocation: "九州"
+      caption: "俯望溪流的小小石堆"
+      alt: "几座小石堆静静立在俯瞰溪流的岩石上"
+      date: "2026年10月3日"
+    kyushu-08:
+      sublocation: "九州"
+      caption: "窗框里的金色田野"
+      alt: "透过窗框望见金色田野与远处的山峦"
+      date: "2026年10月4日"
+    kyushu-09:
+      sublocation: "九州"
+      caption: "雾中山峦下的两个身影"
+      alt: "两个撑伞的身影走在雾中山峦下的草地上"
+      date: "2026年10月4日"
+
 turkiye:
   title: "土耳其"
   eyebrow: "Cappadocia · Antalya · Istanbul · 2025"

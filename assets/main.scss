@@ -1515,7 +1515,7 @@ html[lang="zh-CN"] .hero-email::before {
 
 .photo-location-nav {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 

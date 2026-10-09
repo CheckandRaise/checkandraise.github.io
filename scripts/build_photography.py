@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import io
 import json
 import os
@@ -61,6 +62,24 @@ LOCATIONS = [
             ("Bali Island/Bali - 2 of 4.jpeg", "bali-02", "Surfers waiting at the shoreline in Bali", "Bali Island"),
             ("Bali Island/Bali - 3 of 4.jpeg", "bali-03", "Figures crossing a sunlit sea in Bali", "Bali Island"),
             ("Bali Island/Bali - 4 of 4.jpeg", "bali-04", "Sunset touching the horizon over Bali", "Bali Island"),
+        ],
+    },
+    {
+        "slug": "kyushu",
+        "title": "Kyushu, Japan",
+        "eyebrow": "Japan · October 2026",
+        "description": "Wooded shrine paths, river gorges, harvest fields, and mountains fading into mist.",
+        "cover": "kyushu-05",
+        "photos": [
+            ("Kyushu/Fukuoka - 1 of 9.jpeg", "kyushu-01", "Forest light framed by a circular opening", "Kyushu"),
+            ("Kyushu/Fukuoka - 2 of 9.jpeg", "kyushu-02", "A shrine path beneath towering trees", "Kyushu"),
+            ("Kyushu/Fukuoka - 3 of 9.jpeg", "kyushu-03", "A quiet walk beneath a shrine gate", "Kyushu"),
+            ("Kyushu/Fukuoka - 4 of 9.jpeg", "kyushu-04", "Coins and a bamboo ladle beside a forest shrine", "Kyushu"),
+            ("Kyushu/Fukuoka - 5 of 9.jpeg", "kyushu-05", "A bridge above a deep river gorge", "Kyushu"),
+            ("Kyushu/Fukuoka - 6 of 9.jpeg", "kyushu-06", "Water flowing over moss-covered stones", "Kyushu"),
+            ("Kyushu/Fukuoka - 7 of 9.jpeg", "kyushu-07", "Small stone cairns overlooking the river", "Kyushu"),
+            ("Kyushu/Fukuoka - 8 of 9.jpeg", "kyushu-08", "Golden fields framed by a window", "Kyushu"),
+            ("Kyushu/Fukuoka - 9 of 9.jpeg", "kyushu-09", "Two figures beneath mist-covered mountains", "Kyushu"),
         ],
     },
     {
@@ -219,11 +238,26 @@ def formatted_metadata(values: dict) -> dict:
     }
 
 
-def build() -> None:
+def build(selected_albums: list[str] | None = None) -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     albums = []
+    existing_albums = {}
+    if selected_albums:
+        if not DATA_FILE.exists():
+            raise FileNotFoundError("Build all albums before using --album.")
+        existing_albums = {
+            album["slug"]: album
+            for album in json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        }
 
     for location in LOCATIONS:
+        # Keep untouched albums without reprocessing their local originals.
+        if selected_albums and location["slug"] not in selected_albums:
+            if location["slug"] not in existing_albums:
+                raise ValueError(f"Include --album {location['slug']} to build this new album.")
+            albums.append(existing_albums[location["slug"]])
+            continue
+
         album = {
             key: location[key]
             for key in ("slug", "title", "eyebrow", "description", "cover")
@@ -275,4 +309,11 @@ def build() -> None:
 
 
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--album",
+        choices=[location["slug"] for location in LOCATIONS],
+        action="append",
+        help="Build only this album, preserving existing albums; may be repeated.",
+    )
+    build(parser.parse_args().album)
